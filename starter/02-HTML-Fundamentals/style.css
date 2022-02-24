@@ -1,35 +1,86 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1bb3b3;
+}
+
 h1 {
   color: blue;
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 
 h3 {
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
 li {
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
   line-height: 1.5;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.realted-author {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.522);
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1bb3b3;
+  border-bottom: 5px solid #1bb3b3;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: red;
 }
