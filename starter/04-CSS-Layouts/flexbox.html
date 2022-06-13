@@ -36,10 +36,31 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
-        margin: 40px;
+        /* font-size: 40px; */
 
         /* FLEXBOX */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+      }
+
+      .el {
+        /*
+        DEFAULT
+        flex-grow: 0; // hace que crezacan los hijos del flex a el tamañano max 
+        flex-shrink: 1; // hace que no se desborde en contenedor del flex
+        flex-basis: auto; // les da un ancho a los hijos del contenedor flex 
+        flex: 1 0 auto; // equivale a las mismas propiedades de arriba
+        */
+        flex-shrink: 1;
+        flex-grow: 1;
+        /* flex: 1 1 200px; */
+        /* flex-basis: 200px; */
+      }
+
+      .el--6 {
+        align-self: stretch;
       }
     </style>
   </head>
